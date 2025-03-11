@@ -4,8 +4,8 @@ import react from '@astrojs/react';
 import UnoCSS from 'unocss/astro';
 
 export default defineConfig({
-  site: 'https://cidrl.github.io',
-  base: '/dsi',  // Add the repository name as the base path
+  site: 'https://dsi.tech.cornell.edu',
+  base: '',  // Add the repository name as the base path
   trailingSlash: 'ignore',
   integrations: [sitemap(), react(), UnoCSS()],
   vite: {
