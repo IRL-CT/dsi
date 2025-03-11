@@ -4,7 +4,7 @@ import react from '@astrojs/react';
 import UnoCSS from 'unocss/astro';
 
 export default defineConfig({
-  site: 'https://robotability.cornell.edu',
+  site: 'https://cidrl.github.io/dsi',
   base: '',
   trailingSlash: 'ignore',
   integrations: [sitemap(), react(), UnoCSS()],
