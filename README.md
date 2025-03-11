@@ -1,12 +1,12 @@
-# Robotability Project Website
+# Dense Street Imagery (DSI) Project Website
 
-This is the official website for the Robotability academic project from Cornell Tech. Built with [Astro](https://astro.build/), the site showcases our research on the Robotability Score, a novel metric for quantifying urban robot navigation suitability.
+This is the official website for the Dense Street Imagery (DSI) academic project from Cornell Tech. Built with [Astro](https://astro.build/), the site showcases our research on visual data collection from "digital eyes on the street" including dashcams and autonomous vehicle systems.
 
-## About Robotability
+## About Dense Street Imagery
 
-The Robotability Score (R) is a novel metric that quantifies how suitable urban environments are for autonomous robot navigation. Through expert interviews and surveys, we've developed a standardized framework for evaluating urban landscapes to reduce uncertainty in robot deployment while respecting established mobility patterns.
+Dense Street Imagery (DSI) represents a breakthrough in visual urban data collection, combining advanced vehicle hardware, imaging technology, and networking capabilities to create dynamic, real-time depictions of city environments. Unlike traditional static snapshots from services like Google Street View, DSI leverages temporal density through networked dashcams and driver-assist systems to deliver fresh, continuous imagery at unprecedented frequency.
 
-This project was presented at CHI '25: ACM Conference on Human Factors in Computing Systems.
+This project is under review for FAccT '25: ACM Conference on Fairness, Accountability, and Transparency.
 
 ## Development
 
@@ -29,21 +29,21 @@ All commands are run from the root of the project, from a terminal:
 
 This website is built using Astro, a modern static site generator that delivers excellent performance by shipping minimal JavaScript.
 
-### UnoCSS
+### TailwindCSS
 
-The site uses [UnoCSS](https://uno.antfu.me/) for styling, a utility-first CSS framework that's compatible with TailwindCSS syntax.
+The site uses TailwindCSS for styling, a utility-first CSS framework that enables rapid UI development.
 
 ### Components
 
 The website features several custom components:
-- Interactive map of Robotability Scores across NYC
-- Collapsible indicator list display
-- Team member display cards
-- YouTube video integration with LazyBoxVideo
+- Stats highlight section showing the scale of digital eyes data
+- Application cards for DSI use cases
+- Comparison section between DSI and traditional street imagery
+- Team member display grid with responsive layout
 
 ## Project Structure
 
-- `/src/pages/` - Page templates including the main index and map view
+- `/src/pages/` - Page templates including the main index
 - `/src/components/` - UI components organized by function
 - `/src/layouts/` - Layout templates for consistent page structure
 - `/public/` - Static assets like team member images and logos
@@ -51,11 +51,12 @@ The website features several custom components:
 ## Resources
 
 - [Paper Link](https://doi.org/10.1145/3706598.3714009)
-- [Code Repository](https://github.com/FAR-LAB/robotability-nyc)
 
 ## Team
 
 - Matt Franchi - Computer Science PhD Candidate
-- Maria Teresa Parreira - Information Science PhD Candidate
-- Frank Bu - Computer Science PhD Candidate
+- Hauke Sandhaus - Information Science PhD Candidate
+- Madiha Zahrah Choksi - Information Science PhD Candidate
+- Severin Engelmann - Digital Life Initiative Postdoctoral Associate
 - Wendy Ju - Associate Professor
+- Helen Nissenbaum - Professor / Director of Digital Life Initiative
